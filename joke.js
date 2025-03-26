@@ -24,13 +24,18 @@ if (joke.type=== 'single') {
     setupELement.classList.add('fade-in');
 } 
 
-else if (joke.type=== 'twopart'){
+    else if (joke.type=== 'twopart'){
+        await typeText(setupELement, joke.setup, 20);
+        setupELement.classList.add('fade-in');
+        await new Promise(resolve => setTimeout(resolve, 700));
+        await typeText(punchlineElement, joke.delivery, 25);
+
 
 }
 
-else {
+    else {
     setupELement.textContent = 'No Joke Found :(';
-    
+
 }
 
 
