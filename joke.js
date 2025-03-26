@@ -25,6 +25,11 @@ if (joke.type=== 'single') {
 } 
 
 else if (joke.type=== 'twopart'){
+
+}
+
+else {
+    setupELement.textContent = 'No Joke Found :(';
     
 }
 
