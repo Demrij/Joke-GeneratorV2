@@ -17,6 +17,11 @@ async function getJoke (category = 'Any') {
 
     setupELement.textContent = 'Loading...';
     punchlineElement.textContent = '';
-    
+
+
+if (joke.type=== 'single') {
+    await typeText(setupELement, joke.joke, 20);
+    setupELement.classList.add('fade-in');
+} 
 
 };
