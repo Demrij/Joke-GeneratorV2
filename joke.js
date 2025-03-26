@@ -24,4 +24,10 @@ if (joke.type=== 'single') {
     setupELement.classList.add('fade-in');
 } 
 
+else if (joke.type=== 'twopart'){
+    
+}
+
+
+
 };
