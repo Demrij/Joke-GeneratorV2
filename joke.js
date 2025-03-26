@@ -12,5 +12,9 @@ async function getJoke (category = 'Any') {
     const punchlineElement = document.getElementById('punchline');
     const categorytitlesElement = document.getElementById('joke-category-title');
     
+
+    categorytitlesElement.textContent = categorytitles[category] || 'Joke';
+
     
+
 };

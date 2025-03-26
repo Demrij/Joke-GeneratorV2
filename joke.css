@@ -6,6 +6,10 @@ header{
     color: darkslategray;
 }
 
+body{
+    background-color: darkslategray;
+}
+
 #joke-box{
     margin: 2.5rem auto;
     max-width: 500px;
