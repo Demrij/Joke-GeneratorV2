@@ -15,6 +15,8 @@ async function getJoke (category = 'Any') {
 
     categorytitlesElement.textContent = categorytitles[category] || 'Joke';
 
+    setupELement.textContent = 'Loading...';
+    punchlineElement.textContent = '';
     
 
 };
