@@ -7,13 +7,14 @@ header{
 }
 
 #joke-box{
-    margin: 2.5rem;
+    margin: 2.5rem auto;
     max-width: 500px;
     border: .5rem solid lightblue;
     padding: 1rem;
     text-align: center;
     background-color: gainsboro;
     box-shadow: 0 2px 6px lightblue;
+
 
 }
 
